@@ -7,7 +7,7 @@ require('dotenv').config()
  * description of configuration variables and their potential values.
  */
 exports.config = {
-  app_name: [],
+  app_name: ["boiling-mountain-96932"],
   license_key: process.env.NEW_RELIC_LICENSE_KEY,
   logging: {
     level: 'info'
